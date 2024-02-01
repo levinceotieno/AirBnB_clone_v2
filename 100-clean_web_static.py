@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Defines function that cleans the websever of outdated archives.
-Author: Pius Aaron
+Author: Levince Otieno
 Date: 13-01-2024
 Time: 22:33
 """
@@ -10,7 +10,7 @@ import os
 from fabric.api import run, local, env
 from datetime import datetime
 
-env.hosts = ['18.234.253.75', '54.174.123.116']
+env.hosts = ['100.25.17.77', '100.24.242.170']
 
 
 def do_clean(number=0):
